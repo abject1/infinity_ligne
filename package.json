@@ -1,0 +1,29 @@
+{
+  "name": "infinity_ligne",
+  "version": "1.0.0",
+  "description": "site web de infinity ligne",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "npx babel --watch src --out-dir public --presets react-app/prod",
+    "sass": "node-sass -w src/scss -o public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abject1/infinity_ligne.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abject1/infinity_ligne/issues"
+  },
+  "homepage": "https://github.com/abject1/infinity_ligne#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "node-sass": "^8.0.0",
+    "sass": "^1.56.2",
+    "sass-loader": "^13.2.0"
+  }
+}
